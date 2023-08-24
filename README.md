@@ -1,4 +1,4 @@
-#CALM SVG SPRITE
+# CALM SVG SPRITE
 Easily create optimized SVG sprites.
 
 * Removes all styles and unnecessary attributes, optimizes, and adds the 'fill' property with the value 'currentColor' for more convenient further use.
