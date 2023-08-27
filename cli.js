@@ -53,7 +53,7 @@ readFolder(cli.input[0] ? cli.input[0] : './')
   .then(({ defs }) => {
     const output = `${defs}`;
     const inputFolder = cli.input[1] ? cli.input[1] + '/calm-sprite.svg' : './calm-sprite.svg';
-    fs.appendFile(inputFolder, output, function (err) {
+    fs.writeFileSync(inputFolder, output, function (err) {
       if (err) throw err;
       console.log(`calm-sprite.svg added to the ${cli.input[1] ? cli.input[1] : './'} folder`);
     });

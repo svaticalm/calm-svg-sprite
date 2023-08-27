@@ -16,7 +16,7 @@ const svgoDefaultConfig = {
             name: 'removeAttrs',
             params: {
                 attrs: [
-                    '(stroke|fill|opacity|width|height)',
+                    '(stroke|fill|opacity)',
                     '(class|style)',
                     'xlink:href',
                     'aria-labelledby',
@@ -33,8 +33,6 @@ const svgoDefaultConfig = {
                 attributes: [
                     {
                         fill: 'currentColor',
-                        width: '100%',
-                        height: '100%',
                     },
                 ],
             },
