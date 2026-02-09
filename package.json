@@ -1,6 +1,6 @@
 {
   "name": "calm-svg-sprite",
-  "version": "3.1.0",
+  "version": "0.0.4",
   "description": "Svg sprite generator",
   "repository": "https://github.com/svaticalm/calm-svg-sprite.git",
   "main": "index.js",
